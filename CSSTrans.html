@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+#div1 {transition-timing-function: linear;color: black;}
+
+#div2 {
+transition-timing-function: ease-in;
+background-color:green;
+color:black;
+background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+
+
+#div3 {transition-timing-function: ease-in;background-color: blue;color: black;}
+#div4 {transition-timing-function: ease-out;background-color: darkgreen;color: black;}
+#div5 {transition-timing-function: ease-in-out;background-color: greenyellow;color: white;
+    background-image: linear-gradient(to right, black, white, green);}
+
+
+
+
+
+div:hover {
+  width: 300px;
+}
+</style>
+</head>
+<body>
+
+<h1>Norgesmesterskapet i kappgang</h1>
+
+<p></p>
+
+<div id="div1">Aud</div><br>
+<div id="div2">Randi</div><br>
+<div id="div3">Teo</div><br>
+<div id="div4">Kenny</div><br>
+<div id="div5">Christian</div><br>
+
+</body>
+</html>
